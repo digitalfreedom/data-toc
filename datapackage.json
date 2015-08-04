@@ -1,0 +1,47 @@
+{
+  "name": "data-toc",
+  "title": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "toc",
+      "path": "toc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 785,
+      "schema": {
+        "fields": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "repository",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "data_package",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "a data package of table of contents of other packages",
+  "repository": "git://github.com/digitalfreedom/data-toc.git"
+}
