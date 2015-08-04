@@ -1,6 +1,6 @@
 key,name,description,repository,data_package
 RE,Resellers,Resellers are companies act between suppliers and customers,git+https://github.com/digitalfreedom/data-resellers.git,https://raw.githubusercontent.com/digitalfreedom/data-resellers/master/datapackage.json
 PA,Partners,Partners work with companies to sell surveillance software to either customers or resellers,,
-SU,Suppliers,Suppliers are companies which make surveillance gear for sell or direct use,,
+SU,Suppliers,Suppliers are companies which make surveillance gear for sell or direct use,git+https://github.com/digitalfreedom/data-suppliers.git,,
 CU,Customers,Customers which purchase surveillance gear from are usually either governments or corporations,,
 TA,Targeted Threats,Hacking attacks against civil society,git+https://github.com/digitalfreedom/data-targetedthreats.git,https://raw.githubusercontent.com/digitalfreedom/data-targetedthreats/master/datapackage.json
