@@ -1,47 +1,40 @@
 {
   "name": "data-toc",
-  "title": "",
-  "homepage": "",
+  "title": "Digital Freedom - Data Packages",
+  "homepage": "https://github.com/digitalfreedom/data-toc",
   "version": "0.1.0",
   "license": "PDDL-1.0",
-  "resources": [
-    {
+  "resources": [{
       "name": "toc",
       "path": "toc.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 785,
       "schema": {
-        "fields": [
-          {
+        "fields": [{
             "name": "key",
             "type": "string",
-            "description": ""
-          },
-          {
+            "description": "A two letter key used in other packages"
+          },{
             "name": "name",
             "type": "string",
-            "description": ""
-          },
-          {
+            "description": "Name of data package"
+          },{
             "name": "description",
             "type": "string",
-            "description": ""
-          },
-          {
+            "description": "A short description of what this datapackage does"
+          },{
             "name": "repository",
-            "type": "number",
-            "description": ""
-          },
-          {
+            "type": "string",
+            "description": "Git repository of data package"
+          },{
             "name": "data_package",
-            "type": "number",
-            "description": ""
-          }
-        ]
+            "type": "string",
+            "description": "URL to datapackage.json file"
+          }]
       }
     }
   ],
-  "description": "a data package of table of contents of other packages",
+  "description": "a data package of table of contents of other packages for Digital Freedom",
   "repository": "git://github.com/digitalfreedom/data-toc.git"
 }
