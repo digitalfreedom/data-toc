@@ -1,6 +1,7 @@
 key,name,description,repository,data_package
-RE,Resellers,Resellers are companies act between suppliers and customers,https://github.com/digitalfreedom/data-resellers.git,https://raw.githubusercontent.com/digitalfreedom/data-resellers/master/datapackage.json
-PA,Partners,Partners work with companies to sell surveillance software to either customers or resellers,,
-SU,Suppliers,Suppliers are companies which make surveillance gear for sell or direct use,https://github.com/digitalfreedom/data-suppliers.git,
-CU,Customers,Customers which purchase surveillance gear from are usually either governments or corporations,,
-TA,Targeted Threats,Hacking attacks against civil society,https://github.com/digitalfreedom/data-targetedthreats.git,https://raw.githubusercontent.com/digitalfreedom/data-targetedthreats/master/datapackage.json
+RE,Resellers,Resellers are companies act between suppliers and customers,https://github.com/digitalfreedom/data-resellers.git,data-resellers
+PA,Partners,Partners work with companies to help create and/or sell surveillance software to either customers and/or resellers,,data-partners
+SU,Suppliers,Suppliers are companies which make surveillance gear for sell or direct use,https://github.com/digitalfreedom/data-suppliers.git,data-suppliers
+CU,Customers,Customers which purchase surveillance gear from are usually either governments or corporations,,data-customers
+TA,Targeted Threats,Hacking attacks against civil society,https://github.com/digitalfreedom/data-targetedthreats.git,data-targetedthreats
+EN,Encryption Laws,Laws pertaining to encryption in countries around the world,https://github.com/digitalfreedom/data-encryptionlaws,data-encryptionlaws
