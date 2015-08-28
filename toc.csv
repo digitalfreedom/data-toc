@@ -2,5 +2,4 @@ key,name,description,repository,data_package
 TT,Targeted Threats,Hacking attacks against civil society,https://github.com/digitalfreedom/data-targetedthreats.git,data-targetedthreats
 SR,Surveillance Resellers,Resellers are companies act between suppliers and customers,https://github.com/digitalfreedom/data-resellers.git,data-resellers
 SV,Surveillance Vendors,Vendors are companies which make surveillance gear for sell or direct use,https://github.com/digitalfreedom/data-vendors.git,data-vendors
-SC,Surveillance Customers,Customers which purchase surveillance gear from are usually either governments or corporations,,data-customers
 EL,Encryption Laws,Laws pertaining to encryption in countries around the world,https://github.com/digitalfreedom/data-encryptionlaws,data-encryptionlaws
